@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import Alert from './Alert';
-import '../assets/styles/components/Home.scss';
+import '../assets/styles/Components/Home.scss';
 
-const Home = (props) => {
+const Home = () => {
 
-  const handleClick = (event) => {
-    console.log(window.innerWidth)
+  const handleClick = () => {
     const alert = document.getElementById('alert')
     alert.classList.add('display')
   };

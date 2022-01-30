@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
-import '../assets/styles/components/Alert.scss';
 import beautiful from '../assets/static/so-beautiful-cry.gif'
+import '../assets/styles/Components/Alert.scss';
 
 const Alert = () => {
 

@@ -7,7 +7,6 @@ import App from './routes/App.js';
 
 
 const initialState = {
-  user: '',
 }
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
