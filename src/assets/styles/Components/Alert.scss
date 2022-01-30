@@ -1,0 +1,38 @@
+.alert-container{
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.display{
+  display: flex;
+}
+.alert-gif{
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 200%;
+}
+.close-container{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.close-button{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgba(102, 102, 102, 0.418);
+  color: white;
+  border: 1px solid white;
+}
